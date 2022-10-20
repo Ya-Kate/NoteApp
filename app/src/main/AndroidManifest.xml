@@ -22,20 +22,28 @@
         android:theme="@style/Theme.AndroidProjectOne"
         tools:targetApi="32">
         <activity
-            android:name=".ActivityTwentyOne"
-            android:exported="true">
-
+            android:name=".ListOfNotes"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
-            android:name=".ActivitySeven"
-            android:exported="true">
-
+            android:name=".AddNote"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name=".LogIn"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
         <activity
             android:name=".ActivitySix"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".ActivityFive"
             android:exported="true" />
@@ -50,7 +58,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
