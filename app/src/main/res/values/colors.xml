@@ -15,6 +15,6 @@
     <color name="search_opaque">#ffaa3f</color>
     <color name="selected_background">#ffaa3f</color>
     <color name="default_background">#3d3d3d</color>
-    <color name="_99879D">#99879D</color>
-    <color name="_FBEAFF">#FBEAFF</color>
+    <color name="hint_99879D">#99879D</color>
+    <color name="bg_edit_text_FBEAFF">#FBEAFF</color>
 </resources>
