@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/width"
+    android:layout_height="@dimen/height"
+    android:paddingStart="@dimen/dp_16"
+    android:paddingTop="@dimen/dp_40"
+    android:paddingEnd="@dimen/dp_16"
+    tools:context=".ListOfNotes">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        android:src="@drawable/arrow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout_button"
+        android:layout_width="@dimen/dp_63"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="24dp"
+        android:paddingBottom="@dimen/dp_23"
+        android:text="@string/logout_text"
+        style="@style/bg_list_of_note" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/bg_list_of_note"
+        android:id="@+id/addNewNote"
+        android:layout_width="@dimen/dp_74"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginStart="270dp"
+        android:paddingBottom="23dp"
+        android:text="@string/add_new" />
+
+
+    <ListView
+        android:id="@+id/listNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp_56"
+        android:scrollbars="none"/>
+
+</FrameLayout>

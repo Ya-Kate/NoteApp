@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
         val buttonDiscover: Button = findViewById<Button>(R.id.button_discover_the_platform)
         buttonDiscover.setOnClickListener {
             startActivity(Intent(this, ActivityTwo::class.java))

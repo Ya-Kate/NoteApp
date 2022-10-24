@@ -17,4 +17,5 @@
     <color name="default_background">#3d3d3d</color>
     <color name="hint_99879D">#99879D</color>
     <color name="bg_edit_text_FBEAFF">#FBEAFF</color>
+    <color name="color_hint">#7E57C2</color>
 </resources>
