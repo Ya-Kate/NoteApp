@@ -78,7 +78,8 @@
             style="@style/br_edit_text"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_160"
-            android:paddingBottom="@dimen/dp_124" />
+            android:paddingBottom="@dimen/dp_124"
+            android:textColorHint="#7E57C2" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
