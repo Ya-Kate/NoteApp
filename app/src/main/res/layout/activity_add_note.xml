@@ -43,8 +43,7 @@
         android:text="@string/add_note"
         android:textColor="@color/spiice"
         android:textFontWeight="700"
-        android:textSize="@dimen/sp_25"
-        />
+        android:textSize="@dimen/sp_25" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/title"
@@ -78,18 +77,27 @@
             style="@style/br_edit_text"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_160"
-            android:paddingBottom="@dimen/dp_124" />
+            android:paddingBottom="@dimen/dp_124"
+            android:textColorHint="#7E57C2" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <DatePicker
+        android:id="@+id/calendarView"
+        style="@style/br_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
 
     <Button
         android:id="@+id/addNote"
         style="@style/bg_button"
         android:layout_width="@dimen/dp_263"
         android:layout_height="@dimen/dp_54"
-        android:layout_marginStart="@dimen/dp_49"
-        android:layout_marginTop="@dimen/dp_150"
-        android:text="@string/add_text"
-        />
+        android:layout_margin="@dimen/dp_48"
+        android:text="@string/add_text" />
 
 </LinearLayout>
 

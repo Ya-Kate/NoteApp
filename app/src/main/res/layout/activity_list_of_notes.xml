@@ -18,12 +18,23 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/logout_button"
-        android:layout_width="@dimen/dp_63"
+        style="@style/bg_list_of_note"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/dp_48"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="@dimen/dp_24"
         android:paddingBottom="@dimen/dp_23"
-        android:text="@string/logout_text"
-        style="@style/bg_list_of_note" />
+        android:text="@string/logout_text" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_145"
+        android:text="@string/send"
+        android:textColor="@color/black"
+        style="@style/bg_buttonSend"
+        android:textSize="@dimen/sp_16"
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         style="@style/bg_list_of_note"

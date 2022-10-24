@@ -1,15 +1,10 @@
 package com.example.androidprojectone
 
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
-import android.widget.Spinner
-import java.text.SimpleDateFormat
-import java.util.*
 
 class ListOfNotes : AppCompatActivity() {
 
@@ -18,13 +13,13 @@ class ListOfNotes : AppCompatActivity() {
         var note = Note(
             "Понедельник",
             "Забрать проект по газу",
-            SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(Date())
+            "12.11.2022"
         )
         SingletonNotes.arrayNotes.add(note)
         note = Note(
             "Среда",
             "Купить и забрать корм для кота",
-            SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(Date())
+            "10.10.2022"
         )
         SingletonNotes.arrayNotes.add(note)
     }
@@ -35,7 +30,7 @@ class ListOfNotes : AppCompatActivity() {
 
         val buttonLogout: Button = findViewById<Button>(R.id.logout_button)
         buttonLogout.setOnClickListener {
-            startActivity(Intent(this, LogIn::class.java))
+
         }
 
         if (SingletonNotes.startActivity == false) {
@@ -50,6 +45,7 @@ class ListOfNotes : AppCompatActivity() {
 
         val listAdapterNote = AdapterNote(this, SingletonNotes.arrayNotes)
         findViewById<ListView>(R.id.listNote).adapter = listAdapterNote
+
 
     }
 }

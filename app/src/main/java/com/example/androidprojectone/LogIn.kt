@@ -58,8 +58,12 @@ class LogIn : AppCompatActivity() {
                 toast.setGravity(Gravity.CENTER, 0, 0)
                 toast.show()
             } else {
+                finish()
                 startActivity(Intent(this, ListOfNotes::class.java))
+
             }
+
         }
+
     }
 }
