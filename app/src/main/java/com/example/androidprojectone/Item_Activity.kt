@@ -1,15 +1,11 @@
 package com.example.androidprojectone
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.FragmentActivity
 
-/**
- * Loads [MainFragment].
- */
-class ActivityTwo : FragmentActivity() {
-
+class Item_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_two)
+        setContentView(R.layout.activity_item)
     }
 }

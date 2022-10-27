@@ -46,5 +46,13 @@
     <string name="password21">Password</string>
     <string name="log_in021">Log-in</string>
     <string name="return_to_sign_up21">Return to Sign-up</string>
+    <string name="logout_text">Logout</string>
+    <string name="add_new">Add new</string>
+    <string name="button_back">Back</string>
+    <string name="add_note">Add note</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="add_text">Add</string>
+    <string name="send">Send</string>
 
 </resources>
