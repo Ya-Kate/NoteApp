@@ -14,10 +14,9 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
 
         val buttonDiscover: Button = findViewById<Button>(R.id.button_discover_the_platform)
         buttonDiscover.setOnClickListener {
